@@ -3,68 +3,54 @@
  *   All rights reserved.
  */
 
-.red
-{
-   background-color: brown;
-}
-
  body
  {
-   margin:0;
+   margin: 0;
    padding: 0;
  }
 
- header
- {
-   position: fixed;
-   width: 100%;
-   z-index: 1;
- }
-
-.top-navbar
+html
 {
-
-   background-color: rgb(0, 179, 255);
-   position: top;
-   top: 0;
-   width: 100%;
-   text-align: right;
-   padding: 16px 0;
-    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
 }
 
-.top-navbar li
+/*Header and Navigation*/
+
+.navbar
 {
-   display: inline-block;
-   margin-right: 24px;
+   background-color: rgb(15, 228, 232);
+   position: fixed;
+   top: 0;
+   height: 64px;
+   width: 100%;
+   text-align: right;  
+   
    
 }
 
-
-
-.logo 
+.navbar li
 {
-   float: left;
+   display: inline-flex;
+   padding: 0 16px;
+}
+
+.navbar a 
+{
+   text-decoration: none;
+
+}
+
+#logo
+{
    margin-left: 24px;
-   width: 50px;
-   height: 50px;
-}
-
-.textlogo
-{
-   font-size: 32px;
    float: left;
+   height: 100%;
 }
 
-#textlogo01
+span
 {
-   color: rgb(96, 91, 91);
-   font-weight: 600;
+   float: left;
+   font-size: 32px;
 }
-
-#textlogo02
-{
-   color: lightgrey;
-}
-
 
